@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+body {
+  font-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
+  background-color: #FAFAFA;
+  width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  padding-left: 4.583vw;
+  padding-right: 4.583vw;
+  padding-top: 5.787vw;
+  overflow-x: hidden;
+}
+
+.svg-background {
+  display: none;
+  position: absolute;
+  margin-left: calc(-2 * 4.583vw);
+  top: 0;
+  left: -4;
+  width: 120vw;
+  height: 100%;
+  z-index: -1;
+  pointer-events: none;
+  align-items: center;
+  justify-content: center;
+  transform: translateX(-5%);
+}
+
+.svg-mobile-background{
+  position: absolute;
+  display: flex;
+  margin-left: -25rem;;
+  align-self: flex-start;
+  margin-top: -2rem;
+}
+
+.logo-desktop {
+  display: none;
+}
+
+.logo-mobile {
+  display: block;
+  position: relative;
+}
+
+.background-lines {
+  position: absolute;
+  left: 0;
+  z-index: -1;
+  flex-direction: column;
+  justify-content: space-around; /* evenly space vertically */
+  left: 0;
+  width: 100%;
+}
+
+.line-group > * {
+  width: 110%;
+  margin-left: -1;
+}
+
+
+.video-player {
+  width: 70%;
+  cursor: pointer;
+}
+
+.line1 {
+  background-color: #010101;
+  width: 100px;
+  height: 2px;
+
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  color: #1E1E1E;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-left: 2.2rem;
+}
+
+.site-title {
+  max-width: 9rem;
+}
+
+.navbar {
+  position: relative;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  margin-right: 1.3rem;
+}
+
+.logo {
+  position: absolute;
+  margin-left: 1.3rem;
+  margin-top: -0.8rem;;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: inherit;
+}
+
+.video-card {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+.video-player:hover {
+  transform: scale(1.01);    
+}
+
+.text-container {
+  margin-left: 0rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 2.5rem;
+  width: 68%;
+}
+
+.title {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 0.8rem;
+  color:#1E1E1E;
+}
+
+.description {
+  font-weight: 300;
+  font-size: 0.8rem;
+  font-family: Helvetica;
+  font-style: italic;
+  text-transform: lowercase;
+  color: #595959;
+}
+
+
+.genre-button {
+  background-color: #FAFAFA;
+  padding: 0.375rem 0.75rem;
+  z-index: 3;
+}
+
+.genre-button.active {
+  background-color: #1E1E1E;
+  opacity: 80%;
+  color: white;
+  border-radius: 2px;
+}
+
+.genre-button:hover {
+  background-color: #FAFAFA;
+  filter: drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.25));
+  border-radius: 2px;
+}
+
+.genre-button.active:hover {
+  background-color: #1E1E1E;
+  color: white;
+  border-radius: 2px;
+}
+
+.genre-filter {
+  position: absolute;
+  top: 9.507vw;
+  right: 4.583vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 0.5rem;
+  width: 60vw;
+  background-color: #FAFAFA;
+  font-size: 0.7rem;
+  font-weight: 400;
+  z-index: 1;
+}
+
+/*tablet and up*/
+@media (min-width: 768px) {
+  .App {
+    padding-left: 4.583vw;
+    padding-right: 4.583vw;
+    padding-top: 5.787vw;
+    overflow-x: hidden;
+  }
+  .svg-mobile-background {
+    display: none;
+  }
+  .svg-background {
+    display: flex;
+  }
+  .logo-desktop {
+    display: block;
+  }
+  .logo-mobile {
+    display: none;
+  }
+  .video-player {
+    width: 70%;
+  }
+  .heading {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 2rem;
+    margin-left: 0rem;
+  }
+  .text-container {
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    align-items: flex-start;
+  }
+  
+  .title {
+    font-weight: 400;
+    font-size: 1.5rem;
+  }
+  
+  .description {
+    font-weight: 200;
+    font-size: 1.2rem;
+  }
+
+  .video-card {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    margin-top: 4rem;
+    margin-bottom: 12rem;
+  }
+  .site-title {
+    max-width: 40rem;
+  }
+
+  .logo {
+    position: absolute;
+    margin-left: 10.875rem;
+    margin-top: -1.6rem;
+  }
+
+  .genre-filter {
+    width: 30vw;
+  }
+}
+
+/*desktop and up */
+@media (min-width: 1024px) {
+  .App {
+    padding-left: 4.583vw;
+    padding-right: 4.583vw;
+    padding-top: 5.787vw;
+    overflow-x: hidden;
+  }
+  .svg-mobile-background {
+    display: none;
+  }
+  .svg-background {
+    display: flex;
+  }
+  .logo-desktop {
+    display: block;
+  }
+  .logo-mobile {
+    display: none;
+  }
+  .video-player {
+    width: 70%;
+  }
+  .heading {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 2.5rem;
+    margin-left: 0rem;
+  }
+  .text-container {
+    margin-left: 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    align-items: flex-start;
+  }
+  
+  .title {
+    font-weight: 500;
+    font-size: 2rem;
+  }
+  
+  .description {
+    font-weight: 300;
+    font-size: 1.8rem;
+  }
+
+  .logo {
+    position: absolute;
+    margin-left: 16.875rem;
+    margin-top: -1.6rem;
+  }
+
+  .video-card {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    margin-top: 4rem;
+    margin-bottom: 12rem;
+  }
+
+  .site-title {
+    max-width: 40rem;
+  }
+
+  .genre-button {
+    padding: 0.375rem 0.75rem;
+  }
+  
+  .genre-button.active {
+    border-radius: 2px;
+  }
+  
+  .genre-button:hover {
+    border-radius: 2px;
+  }
+  
+  .genre-button.active:hover {
+    border-radius: 2px;
+  }
+  
+  .genre-filter {
+    top: 9.507vw;
+    right: 4.583vw;
+    gap: 0.5rem;
+    width: 30vw;
+    background-color: #FAFAFA;
+    font-size: 0.875rem;
+    font-weight: 500;
+  }
+  
+}
+
