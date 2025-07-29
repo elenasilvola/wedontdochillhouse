@@ -1,6 +1,7 @@
 {
   "name": "video-library",
   "version": "0.1.0",
+  "homepage": "https://elenasilvola.github.io/video-library",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
