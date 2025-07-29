@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/video-library/static/css/main.17708706.css",
-    "main.js": "/video-library/static/js/main.4e8912a4.js",
-    "index.html": "/video-library/index.html",
-    "static/media/backgroundLines.svg": "/video-library/static/media/backgroundLines.e1ed4e19da4b379c0c6ffd37b2cc6129.svg",
-    "static/media/logo.svg": "/video-library/static/media/logo.04ea7387e54121e16ffb31043b78a123.svg",
-    "static/media/logo-mobile.svg": "/video-library/static/media/logo-mobile.24d449e8785cadd2cfb6b9c270b320aa.svg",
-    "static/media/backgroundLines-mobile.svg": "/video-library/static/media/backgroundLines-mobile.5612f2c9f4237c9ab66567ee42982d9e.svg",
-    "main.17708706.css.map": "/video-library/static/css/main.17708706.css.map",
-    "main.4e8912a4.js.map": "/video-library/static/js/main.4e8912a4.js.map"
+    "main.css": "/wedontdochillhouse/static/css/main.17708706.css",
+    "main.js": "/wedontdochillhouse/static/js/main.125656ec.js",
+    "index.html": "/wedontdochillhouse/index.html",
+    "static/media/backgroundLines.svg": "/wedontdochillhouse/static/media/backgroundLines.e1ed4e19da4b379c0c6ffd37b2cc6129.svg",
+    "static/media/logo.svg": "/wedontdochillhouse/static/media/logo.04ea7387e54121e16ffb31043b78a123.svg",
+    "static/media/logo-mobile.svg": "/wedontdochillhouse/static/media/logo-mobile.24d449e8785cadd2cfb6b9c270b320aa.svg",
+    "static/media/backgroundLines-mobile.svg": "/wedontdochillhouse/static/media/backgroundLines-mobile.5612f2c9f4237c9ab66567ee42982d9e.svg",
+    "main.17708706.css.map": "/wedontdochillhouse/static/css/main.17708706.css.map",
+    "main.125656ec.js.map": "/wedontdochillhouse/static/js/main.125656ec.js.map"
   },
   "entrypoints": [
     "static/css/main.17708706.css",
-    "static/js/main.4e8912a4.js"
+    "static/js/main.125656ec.js"
   ]
 }
