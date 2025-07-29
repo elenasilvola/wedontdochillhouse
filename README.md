@@ -14,6 +14,7 @@ This is a personal recreational project for practising React, JavaScript, video 
 ## Work in Progress
 
 - **Responsiveness**: Layout currently breaks on smaller screen sizes. Responsive behavior is under construction.
+
 – Some genre tags may still require editing or refinement.
 - Additional layout polish and animations planned.
 - City filtering planned.
