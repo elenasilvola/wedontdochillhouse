@@ -1,7 +1,6 @@
 import React from "react";
 import '../styles/index.css';
 import { ReactComponent as LineSVG } from '../assets/backgroundLines.svg';
-import { ReactComponent as LineSVGMobile } from '../assets/backgroundLines-mobile.svg';
 
 
 const VideoCard = ( {video, videoRef, onVideoClick, withBackground} ) => {
@@ -11,7 +10,7 @@ const VideoCard = ( {video, videoRef, onVideoClick, withBackground} ) => {
             {withBackground && (
                 <div>
                     <div className="svg-background"><LineSVG /></div>
-                    <div className="svg-mobile-background"><LineSVGMobile /></div>
+        
                 </div>
             )}
             <div className="video-player" onClick={onVideoClick}>

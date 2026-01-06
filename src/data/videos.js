@@ -93,7 +93,7 @@ const videos = [
     {
         id: 10,
         title: "Hymra",
-        genre: ["Electronic", "Hard Trance"],
+        genre: ["Electronic", "Hard House"],
         country: "Portugal",
         city: "Lisbon",
         date: "2024-12-08",
@@ -120,6 +120,36 @@ const videos = [
         city: "London",
         date: "2025-05-25",
         url: "https://res.cloudinary.com/dn9cj2x9w/video/upload/v1748335410/nala_sinephro_1_bywdrd.mp4"
+    },
+
+    {
+        id: 13,
+        title: "Louie Blue",
+        genre: ["Rock"],
+        country: "Finland",
+        city: "Helsinki",
+        date: "2025-10-10",
+        url: "https://res.cloudinary.com/dn9cj2x9w/video/upload/v1767704653/louieblue_mrngam.mp4"
+    },
+
+    {
+        id: 14,
+        title: "Bilar",
+        genre: ["Ambient", "Trance"],
+        country: "Finland",
+        city: "Inkoo",
+        date: "2025-07-25",
+        url: "https://res.cloudinary.com/dn9cj2x9w/video/upload/v1767711028/bilar_xab3bl.mp4"
+    },
+
+    {
+        id: 15,
+        title: "Kasper Marott",
+        genre: ["Progressive House"],
+        country: "Finland",
+        city: "Kuusamo",
+        date: "2025-06-19",
+        url: "https://res.cloudinary.com/dn9cj2x9w/video/upload/v1767713421/kaspermarrot_d4vc7g.mp4"
     }
 
 
