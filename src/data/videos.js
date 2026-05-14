@@ -150,7 +150,7 @@ const videos = [
         city: "Kuusamo",
         date: "2025-06-19",
         url: "https://res.cloudinary.com/dn9cj2x9w/video/upload/v1767713421/kaspermarrot_d4vc7g.mp4"
-    }
+    },
 
     {
         id: 16,
