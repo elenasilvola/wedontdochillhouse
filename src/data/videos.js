@@ -152,6 +152,16 @@ const videos = [
         url: "https://res.cloudinary.com/dn9cj2x9w/video/upload/v1767713421/kaspermarrot_d4vc7g.mp4"
     }
 
+    {
+        id: 16,
+        title: "Merely & Niko Demus",
+        genre: ["Ambient", "Electronic"],
+        country: "Finland",
+        city: "Helsinki",
+        date: "2026-05-14",
+        url: "https://res.cloudinary.com/dn9cj2x9w/video/upload/v1778742151/merely_zmwn2l.mp4"
+    }
+
 
 
 ];
