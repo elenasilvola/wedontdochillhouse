@@ -160,8 +160,17 @@ const videos = [
         city: "Helsinki",
         date: "2026-05-14",
         url: "https://res.cloudinary.com/dn9cj2x9w/video/upload/v1778742151/merely_zmwn2l.mp4"
-    }
+    },
 
+    {
+        id: 17,
+        title: "Barker",
+        genre: ["Ambient techno"],
+        country: "Finland",
+        city: "Helsinki",
+        date: "2026-06-05",
+        url: "https://res.cloudinary.com/dn9cj2x9w/video/upload/v1781342820/barker_fsp60s.mp4"
+    }
 
 
 ];
