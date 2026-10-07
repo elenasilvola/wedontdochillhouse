@@ -185,7 +185,7 @@ const videos = [
     {
         id: 19,
         title: "RHR",
-        genre: ["Electronic", "Breaks", "Experimental", "Brazilian"],
+        genre: ["Electronic", "Breaks", "Brazilian"],
         country: "Finland",
         city: "Kuusamo",
         date: "2026-06-19",
