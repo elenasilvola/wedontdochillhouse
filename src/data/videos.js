@@ -170,6 +170,16 @@ const videos = [
         city: "Helsinki",
         date: "2026-06-05",
         url: "https://res.cloudinary.com/dn9cj2x9w/video/upload/v1781342820/barker_fsp60s.mp4"
+    },
+
+    {
+        id: 18,
+        title: "Keiju",
+        genre: ["Finnish", "Rap"],
+        country: "Finland",
+        city: "Helsinki",
+        date: "2026-09-25",
+        url: "https://res.cloudinary.com/dn9cj2x9w/video/upload/v1791358168/keiju_qvo5z5.mp4"
     }
 
 
