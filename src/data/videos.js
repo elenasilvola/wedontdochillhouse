@@ -179,8 +179,18 @@ const videos = [
         country: "Finland",
         city: "Helsinki",
         date: "2026-09-25",
-        url: "https://res.cloudinary.com/dn9cj2x9w/video/upload/v1791358168/keiju_qvo5z5.mp4"
-    }
+        url: "https://res.cloudinary.com/dn9cj2x9w/video/upload/v1791359396/keiju_ubacka.mp4"
+    },
+
+    {
+        id: 19,
+        title: "RHR",
+        genre: ["Electronic"],
+        country: "Finland",
+        city: "Kuusamo",
+        date: "2026-06-19",
+        url: "https://res.cloudinary.com/dn9cj2x9w/video/upload/v1791359620/rhr_jbmhov.mp4"
+    },
 
 
 ];
